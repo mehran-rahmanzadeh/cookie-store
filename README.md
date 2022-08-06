@@ -16,6 +16,10 @@ cp docs/docker/settings.ini .
 docker compose up -d --build
 # or in older version: docker-compose up -d
 ```
+- Run tests
+```bash
+docker exec -it demo_django python manage.py test
+```
 Possible issues:
 - if you can not log in to admin panel, try to create superuser in `demo_django` container
 ### Usage
