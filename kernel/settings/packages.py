@@ -37,18 +37,6 @@ INSTALLED_APPS.append('demo')
 # ]
 # UPLOAD_CHUNK_SIZE = 2500 * 2 ** 10  # 2500 KB
 
-# ######################### #
-#       AdminInterface      #
-# ######################### #
-from datetime import datetime
-
-ADMIN_FOOTER_DATA = {
-    'site_url': 'https://entry.com',
-    'site_name': 'Entry',
-    'period': '{}'.format(datetime.now().year),
-    'version': 'v0.0.1 - development'
-}
-
 # #################### #
 # IMPORTANT VARIABLES  #
 # #################### #
